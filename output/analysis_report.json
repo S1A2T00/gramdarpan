@@ -1,0 +1,214 @@
+{
+  "vegetation_analysis": {
+    "time1": {
+      "label": "village_t1",
+      "mean_ndvi": 0.03,
+      "health_status": "No Vegetation / Bare",
+      "vegetation_pixel_percent": 29.73,
+      "heatmap_path": "C:\\Users\\Saytam Pandey\\Desktop\\gramdarpan-image-analysis\\gramdarpan-image-analysis\\output\\village_t1_ndvi_heatmap.png",
+      "zones": [
+        {
+          "zone_id": "Z-00",
+          "mean_ndvi": 0.259,
+          "health_status": "Poor"
+        },
+        {
+          "zone_id": "Z-01",
+          "mean_ndvi": 0.366,
+          "health_status": "Moderate"
+        },
+        {
+          "zone_id": "Z-02",
+          "mean_ndvi": -0.042,
+          "health_status": "No Vegetation / Bare"
+        },
+        {
+          "zone_id": "Z-03",
+          "mean_ndvi": -0.144,
+          "health_status": "No Vegetation / Bare"
+        },
+        {
+          "zone_id": "Z-10",
+          "mean_ndvi": 0.366,
+          "health_status": "Moderate"
+        },
+        {
+          "zone_id": "Z-11",
+          "mean_ndvi": 0.502,
+          "health_status": "Moderate"
+        },
+        {
+          "zone_id": "Z-12",
+          "mean_ndvi": -0.015,
+          "health_status": "No Vegetation / Bare"
+        },
+        {
+          "zone_id": "Z-13",
+          "mean_ndvi": -0.144,
+          "health_status": "No Vegetation / Bare"
+        },
+        {
+          "zone_id": "Z-20",
+          "mean_ndvi": 0.162,
+          "health_status": "Poor"
+        },
+        {
+          "zone_id": "Z-21",
+          "mean_ndvi": 0.244,
+          "health_status": "Poor"
+        },
+        {
+          "zone_id": "Z-22",
+          "mean_ndvi": -0.138,
+          "health_status": "No Vegetation / Bare"
+        },
+        {
+          "zone_id": "Z-23",
+          "mean_ndvi": -0.217,
+          "health_status": "No Vegetation / Bare"
+        },
+        {
+          "zone_id": "Z-30",
+          "mean_ndvi": -0.144,
+          "health_status": "No Vegetation / Bare"
+        },
+        {
+          "zone_id": "Z-31",
+          "mean_ndvi": -0.144,
+          "health_status": "No Vegetation / Bare"
+        },
+        {
+          "zone_id": "Z-32",
+          "mean_ndvi": -0.217,
+          "health_status": "No Vegetation / Bare"
+        },
+        {
+          "zone_id": "Z-33",
+          "mean_ndvi": -0.218,
+          "health_status": "No Vegetation / Bare"
+        }
+      ]
+    },
+    "time2": {
+      "label": "village_t2",
+      "mean_ndvi": -0.035,
+      "health_status": "No Vegetation / Bare",
+      "vegetation_pixel_percent": 0.01,
+      "heatmap_path": "C:\\Users\\Saytam Pandey\\Desktop\\gramdarpan-image-analysis\\gramdarpan-image-analysis\\output\\village_t2_ndvi_heatmap.png",
+      "zones": [
+        {
+          "zone_id": "Z-00",
+          "mean_ndvi": 0.099,
+          "health_status": "No Vegetation / Bare"
+        },
+        {
+          "zone_id": "Z-01",
+          "mean_ndvi": 0.164,
+          "health_status": "Poor"
+        },
+        {
+          "zone_id": "Z-02",
+          "mean_ndvi": -0.082,
+          "health_status": "No Vegetation / Bare"
+        },
+        {
+          "zone_id": "Z-03",
+          "mean_ndvi": -0.144,
+          "health_status": "No Vegetation / Bare"
+        },
+        {
+          "zone_id": "Z-10",
+          "mean_ndvi": 0.164,
+          "health_status": "Poor"
+        },
+        {
+          "zone_id": "Z-11",
+          "mean_ndvi": 0.245,
+          "health_status": "Poor"
+        },
+        {
+          "zone_id": "Z-12",
+          "mean_ndvi": -0.066,
+          "health_status": "No Vegetation / Bare"
+        },
+        {
+          "zone_id": "Z-13",
+          "mean_ndvi": -0.144,
+          "health_status": "No Vegetation / Bare"
+        },
+        {
+          "zone_id": "Z-20",
+          "mean_ndvi": 0.041,
+          "health_status": "No Vegetation / Bare"
+        },
+        {
+          "zone_id": "Z-21",
+          "mean_ndvi": 0.09,
+          "health_status": "No Vegetation / Bare"
+        },
+        {
+          "zone_id": "Z-22",
+          "mean_ndvi": -0.122,
+          "health_status": "No Vegetation / Bare"
+        },
+        {
+          "zone_id": "Z-23",
+          "mean_ndvi": -0.17,
+          "health_status": "No Vegetation / Bare"
+        },
+        {
+          "zone_id": "Z-30",
+          "mean_ndvi": -0.144,
+          "health_status": "No Vegetation / Bare"
+        },
+        {
+          "zone_id": "Z-31",
+          "mean_ndvi": -0.144,
+          "health_status": "No Vegetation / Bare"
+        },
+        {
+          "zone_id": "Z-32",
+          "mean_ndvi": -0.17,
+          "health_status": "No Vegetation / Bare"
+        },
+        {
+          "zone_id": "Z-33",
+          "mean_ndvi": -0.171,
+          "health_status": "No Vegetation / Bare"
+        }
+      ]
+    }
+  },
+  "water_analysis": {
+    "time1": {
+      "label": "village_t1",
+      "water_area_percent": 9.61,
+      "status": "Normal",
+      "mask_path": "C:\\Users\\Saytam Pandey\\Desktop\\gramdarpan-image-analysis\\gramdarpan-image-analysis\\output\\village_t1_ndwi_mask.png"
+    },
+    "time2": {
+      "label": "village_t2",
+      "water_area_percent": 3.46,
+      "status": "Low - Alert",
+      "mask_path": "C:\\Users\\Saytam Pandey\\Desktop\\gramdarpan-image-analysis\\gramdarpan-image-analysis\\output\\village_t2_ndwi_mask.png"
+    }
+  },
+  "change_detection": {
+    "label": "village",
+    "vegetation_loss_percent": 29.73,
+    "water_loss_percent": 6.16,
+    "change_map_path": "C:\\Users\\Saytam Pandey\\Desktop\\gramdarpan-image-analysis\\gramdarpan-image-analysis\\output\\village_change_detection.png",
+    "alerts": [
+      {
+        "type": "Vegetation Decline",
+        "severity": "High",
+        "message": "29.73% of monitored agriculture area shows significant vegetation decline between the two time periods. Possible crop stress, pest attack, or irrigation shortage \u2014 recommend field verification."
+      },
+      {
+        "type": "Water Body Shrinkage",
+        "severity": "Medium",
+        "message": "6.16% reduction detected in water body extent. Possible drought stress or over-extraction \u2014 recommend water resource review."
+      }
+    ]
+  }
+}
