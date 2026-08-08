@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GramDarpan Analysis Dashboard</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f7fa;
+      color: #1f2933;
+    }
+    header {
+      padding: 28px 32px;
+      background: #12343b;
+      color: white;
+    }
+    main {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 24px;
+    }
+    .metrics, .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+    }
+    .metric, .card, .alerts {
+      background: white;
+      border: 1px solid #d8e0e7;
+      border-radius: 8px;
+      padding: 16px;
+      box-shadow: 0 1px 2px rgba(15, 23, 42, 0.06);
+    }
+    .metric span {
+      display: block;
+      color: #627282;
+      font-size: 13px;
+      margin-bottom: 8px;
+    }
+    .metric strong {
+      font-size: 24px;
+    }
+    h1, h2, h3 {
+      margin-top: 0;
+    }
+    h2 {
+      margin-top: 28px;
+    }
+    img {
+      width: 100%;
+      height: auto;
+      border: 1px solid #e1e7ed;
+      border-radius: 6px;
+      background: #fff;
+    }
+    li {
+      margin: 10px 0;
+      line-height: 1.45;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>GramDarpan Analysis Dashboard</h1>
+    <p>Vegetation health, water coverage, and multi-temporal change summary.</p>
+  </header>
+  <main>
+    <section class="metrics">
+      <div class="metric"><span>T1 Vegetation</span><strong>No Vegetation / Bare</strong><br>Mean NDVI 0.03</div>
+      <div class="metric"><span>T2 Vegetation</span><strong>No Vegetation / Bare</strong><br>Mean NDVI -0.035</div>
+      <div class="metric"><span>T1 Water Coverage</span><strong>9.61%</strong><br>Normal</div>
+      <div class="metric"><span>T2 Water Coverage</span><strong>3.46%</strong><br>Low - Alert</div>
+      <div class="metric"><span>Vegetation Loss</span><strong>29.73%</strong><br>Significant decline area</div>
+      <div class="metric"><span>Water Loss</span><strong>6.16%</strong><br>Significant decline area</div>
+    </section>
+
+    <section class="alerts">
+      <h2>Alerts</h2>
+      <ul><li><strong>High</strong> - Vegetation Decline: 29.73% of monitored agriculture area shows significant vegetation decline between the two time periods. Possible crop stress, pest attack, or irrigation shortage — recommend field verification.</li>
+<li><strong>Medium</strong> - Water Body Shrinkage: 6.16% reduction detected in water body extent. Possible drought stress or over-extraction — recommend water resource review.</li></ul>
+    </section>
+
+    <h2>Generated Maps</h2>
+    <section class="grid">
+      
+        <article class="card">
+          <h3>T1 NDVI Heatmap</h3>
+          <img src="village_t1_ndvi_heatmap.png" alt="T1 NDVI Heatmap">
+        </article>
+        
+
+        <article class="card">
+          <h3>T2 NDVI Heatmap</h3>
+          <img src="village_t2_ndvi_heatmap.png" alt="T2 NDVI Heatmap">
+        </article>
+        
+
+        <article class="card">
+          <h3>T1 Water Mask</h3>
+          <img src="village_t1_ndwi_mask.png" alt="T1 Water Mask">
+        </article>
+        
+
+        <article class="card">
+          <h3>T2 Water Mask</h3>
+          <img src="village_t2_ndwi_mask.png" alt="T2 Water Mask">
+        </article>
+        
+
+        <article class="card">
+          <h3>Change Detection</h3>
+          <img src="village_change_detection.png" alt="Change Detection">
+        </article>
+        
+    </section>
+  </main>
+</body>
+</html>

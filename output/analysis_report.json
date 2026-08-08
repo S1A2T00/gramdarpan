@@ -5,7 +5,7 @@
       "mean_ndvi": 0.03,
       "health_status": "No Vegetation / Bare",
       "vegetation_pixel_percent": 29.73,
-      "heatmap_path": "C:\\Users\\Saytam Pandey\\Desktop\\gramdarpan-image-analysis\\gramdarpan-image-analysis\\output\\village_t1_ndvi_heatmap.png",
+      "heatmap_path": "D:\\GramDarpan\\gramdarpan\\output\\village_t1_ndvi_heatmap.png",
       "zones": [
         {
           "zone_id": "Z-00",
@@ -94,7 +94,7 @@
       "mean_ndvi": -0.035,
       "health_status": "No Vegetation / Bare",
       "vegetation_pixel_percent": 0.01,
-      "heatmap_path": "C:\\Users\\Saytam Pandey\\Desktop\\gramdarpan-image-analysis\\gramdarpan-image-analysis\\output\\village_t2_ndvi_heatmap.png",
+      "heatmap_path": "D:\\GramDarpan\\gramdarpan\\output\\village_t2_ndvi_heatmap.png",
       "zones": [
         {
           "zone_id": "Z-00",
@@ -184,20 +184,20 @@
       "label": "village_t1",
       "water_area_percent": 9.61,
       "status": "Normal",
-      "mask_path": "C:\\Users\\Saytam Pandey\\Desktop\\gramdarpan-image-analysis\\gramdarpan-image-analysis\\output\\village_t1_ndwi_mask.png"
+      "mask_path": "D:\\GramDarpan\\gramdarpan\\output\\village_t1_ndwi_mask.png"
     },
     "time2": {
       "label": "village_t2",
       "water_area_percent": 3.46,
       "status": "Low - Alert",
-      "mask_path": "C:\\Users\\Saytam Pandey\\Desktop\\gramdarpan-image-analysis\\gramdarpan-image-analysis\\output\\village_t2_ndwi_mask.png"
+      "mask_path": "D:\\GramDarpan\\gramdarpan\\output\\village_t2_ndwi_mask.png"
     }
   },
   "change_detection": {
     "label": "village",
     "vegetation_loss_percent": 29.73,
     "water_loss_percent": 6.16,
-    "change_map_path": "C:\\Users\\Saytam Pandey\\Desktop\\gramdarpan-image-analysis\\gramdarpan-image-analysis\\output\\village_change_detection.png",
+    "change_map_path": "D:\\GramDarpan\\gramdarpan\\output\\village_change_detection.png",
     "alerts": [
       {
         "type": "Vegetation Decline",
