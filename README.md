@@ -33,6 +33,24 @@ Run the main analysis pipeline:
 python main.py
 ```
 
+The pipeline now also creates a browser-friendly dashboard:
+
+```text
+output/analysis_dashboard.html
+```
+
+Use custom folders when needed:
+
+```powershell
+python main.py --image-dir sample_images --output-dir output
+```
+
+Skip the HTML dashboard and write only JSON/images:
+
+```powershell
+python main.py --no-dashboard
+```
+
 Generate sample data for experimentation:
 
 ```powershell
@@ -41,7 +59,7 @@ python generate_sample_data.py
 
 Notes:
 - Input images can be placed in the `sample_images/` folder (or configured in code).
-- Analysis output is written to the `output/` folder; an example output is `output/analysis_report.json`.
+- Analysis output is written to the `output/` folder; examples include `output/analysis_report.json` and `output/analysis_dashboard.html`.
 
 ## Project Structure
 - `main.py` — entry point to run the analysis pipeline
