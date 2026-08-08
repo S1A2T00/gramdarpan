@@ -67,10 +67,27 @@ Notes:
 - `requirements.txt` — Python package dependencies
 - `sample_images/` — example input images
 - `output/` — analysis outputs (reports, maps)
+- `backend/` — MongoDB + Express backend scaffold with Mongoose schemas
+- `docs/mongodb-database-design.md` — database design for the smart governance backend
 - `src/` — core modules
   - `src/change_detection.py` — change detection routines
   - `src/vegetation_analysis.py` — vegetation indexes and metrics
   - `src/water_detection.py` — water detection helpers
+
+## MongoDB / Express Backend
+The backend design lives in `backend/` and defines the main collections:
+villages, users, imagery scenes, analysis runs, governance assets, alerts,
+schemes, and complaints.
+
+```powershell
+cd backend
+npm install
+copy .env.example .env
+npm run dev
+```
+
+See `docs/mongodb-database-design.md` for relationships, indexes, and suggested
+API endpoints.
 
 ## Example Workflow
 1. Place your imagery in `sample_images/` (or update input path in `main.py`).
